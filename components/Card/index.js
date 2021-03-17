@@ -47,7 +47,7 @@ export default function Card({
         }
       },
     },
-    [true],
+    // [true], // Remove this to fix the stutters
   );
 
   const styles = generatedStyles(index);
